@@ -11,6 +11,7 @@
   <component name="ProjectId" id="1haIBYuz1NGYsxgi7VIlnAetoWn" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -24,6 +25,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" working-dir="$PROJECT_DIR$/../react-redux-saga">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.scratch.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -34,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600242641233</updated>
-      <workItem from="1600242642802" duration="503000" />
+      <workItem from="1600242642802" duration="4200000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,7 @@ import {ChangeTheme} from "../utils";
 
 export default () => {
   const dispatch = useDispatch();
-  let theme = useSelector(state => state.theme.value);
+  const theme = useSelector(state => state.theme.value);
   ChangeTheme(theme);
   const newTheme = theme === 'light' ? 'dark' : 'light';
 

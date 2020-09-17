@@ -1,4 +1,4 @@
-import {CREATE_POST, FETCHED_POST, HIDE_ALERT, HIDE_LOADER, SHOW_ALERT, SHOW_LOADER} from "./types";
+import {CHANGE_THEME, CREATE_POST, FETCHED_POST, HIDE_ALERT, HIDE_LOADER, SHOW_ALERT, SHOW_LOADER} from "./types";
 
 export function createPost(post) {
   return {
@@ -35,6 +35,13 @@ export function showAlert(text) {
 export function hideAlert() {
   return {
     type: HIDE_ALERT
+  }
+}
+
+export function changeTheme(newTheme) {
+  return {
+    type: CHANGE_THEME,
+    payload: newTheme
   }
 }
 

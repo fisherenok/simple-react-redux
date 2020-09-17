@@ -13,7 +13,6 @@ class PostForm extends React.Component {
   }
 
   submitHandler = event => {
-    console.log(this.props)
     event.preventDefault();
 
     const {title} = this.state;

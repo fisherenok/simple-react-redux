@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import '../style.css';
 import {changeTheme} from "../redux/actions";
 import {useDispatch, useSelector} from "react-redux";
@@ -7,7 +7,7 @@ import {ChangeTheme} from "../utils";
 export default () => {
   const dispatch = useDispatch();
   const theme = useSelector(state => state.theme.value);
-  ChangeTheme(theme);
+  useEffect(() => ChangeTheme(theme));
   const newTheme = theme === 'light' ? 'dark' : 'light';
 
   return (
